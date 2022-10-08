@@ -266,8 +266,14 @@ ul {
   justify-content: center;
   margin-bottom: 34px;
 }
-.filter-button {
+.filter-item {
   margin-right: 8px;
+}
+.filter-item:last-child {
+  margin-right: 0px;
+}
+.filter-button {
+  padding: 6px 22px;
   background-color: var(--background-color-secondary);
   color: var(--color-secondary);
   border-color: #f5f4fa;
@@ -278,9 +284,7 @@ ul {
   line-height: 1.62;
   cursor: pointer;
 }
-.filter-button:last-child {
-  margin-right: 0px;
-}
+
 .filter-button:hover {
   background-color: var(--background-color-button);
   color: var(--color-invert);
@@ -295,10 +299,11 @@ ul {
 }
 .portfolio-list {
   flex-wrap: wrap;
-  justify-content: center;
+  padding: 0;
 }
 .portfolio-item {
   margin: 0 30px 30px 0;
+  border: 1px solid #eeeeee;
 }
 .portfolio-item:nth-last-child(3n + 1) {
   margin-right: 0;
