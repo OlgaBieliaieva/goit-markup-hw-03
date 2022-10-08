@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,48 +19,57 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a
-          href="./index.html"
-          class="logo-first"
-          rel="noreferrer noopener nofollow"
-          lang="en"
-          >Web<span class="logo-second">Studio</span></a
-        >
-        <ul class="nav-list">
-          <li>
+      <div class="container">
+        <nav>
+          <div class="nav-container">
             <a
-              class="nav-link"
               href="./index.html"
+              class="logo-first"
               rel="noreferrer noopener nofollow"
-              >Студія</a
+              lang="en"
+              >Web<span class="logo-second">Studio</span></a
+            >
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a
+                  class="nav-link"
+                  href="./index.html"
+                  rel="noreferrer noopener nofollow"
+                  >Студія</a
+                >
+              </li>
+              <li class="nav-list-item">
+                <a
+                  class="nav-link current"
+                  href="./portfolio.html"
+                  rel="noreferrer noopener nofollow"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="nav-list-item">
+                <a
+                  class="nav-link"
+                  href=""
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  >Контакти</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <ul class="contact-list">
+          <li class="contact-list-item">
+            <a class="list-link" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
             >
           </li>
-          <li>
-            <a
-              class="nav-link current"
-              href="./portfolio.html"
-              rel="noreferrer noopener nofollow"
-              >Портфоліо</a
-            >
-          </li>
-          <li>
-            <a class="nav-link" href="" rel="noreferrer noopener nofollow"
-              >Контакти</a
-            >
+          <li class="contact-list-item">
+            <a class="list-link" href="tel:+380961111111"> +38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contact-list">
-        <li>
-          <a class="list-link" href="mailto:info@devstudio.com">
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="list-link" href="tel:+380961111111"> +38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
