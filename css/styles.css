@@ -218,20 +218,24 @@ img {
   font-weight: var(--font-weight-header);
 }
 .footer {
+  padding: 60px 0;
   background-color: var(--background-color-accent);
 }
 .logo-invert {
   color: var(--color-invert);
 }
 .address {
+  margin-top: 20px;
   font-style: normal;
   line-height: 1.71;
 }
 .address-link {
+  margin-bottom: 9px;
   color: var(--color-invert);
   text-decoration: none;
 }
 .contact-link {
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
